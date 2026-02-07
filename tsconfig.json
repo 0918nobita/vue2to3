@@ -1,0 +1,44 @@
+{
+  // このファイルの詳細については、https://aka.ms/tsconfig をご覧ください
+  "compilerOptions": {
+    "noEmit": true,
+
+    // 環境の設定
+    // https://aka.ms/tsconfig/module も参照
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "target": "esnext",
+    "types": [],
+
+    // その他の出力
+    "sourceMap": false,
+    "declaration": false,
+    "declarationMap": false,
+
+    // より厳密な型チェック オプション
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // スタイル オプション
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "erasableSyntaxOnly": true,
+
+    // 推奨オプション
+    "strict": true,
+    "jsx": "preserve",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  }
+}
